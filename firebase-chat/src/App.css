@@ -13,6 +13,58 @@
   }
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap");
+
+.room {
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.room > label {
+  color: white;
+  font-size: 50px;
+}
+
+.room > input {
+  -webkit-box-shadow: -6px 5px 19px 8px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: -6px 5px 19px 8px rgba(0, 0, 0, 0.23);
+  box-shadow: -6px 5px 19px 8px rgba(0, 0, 0, 0.23);
+  font-family: "Roboto Slab", serif;
+  border-radius: 20px;
+  color: black;
+  font-size: 50px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.room > button {
+  -webkit-box-shadow: -6px 5px 19px 8px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: -6px 5px 19px 8px rgba(0, 0, 0, 0.23);
+  box-shadow: -6px 5px 19px 8px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 40px;
+  width: 300px;
+  font-size: 30px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 255, 111, 1) 100%
+  );
+  border: none;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+.room > button:hover {
+  cursor: pointer;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,6 +76,36 @@
   color: white;
 }
 
+.sign-out {
+  display: flex;
+  font-family: "Roboto Slab", serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-out > button {
+  -webkit-box-shadow: -6px 5px 19px 8px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: -6px 5px 19px 8px rgba(0, 0, 0, 0.23);
+  box-shadow: -6px 5px 19px 8px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100px;
+  font-size: 10px;
+  background: rgb(36, 0, 8);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 0, 8, 1) 0%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  border: none;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+.sign-out > button:hover {
+  cursor: pointer;
+}
 .App-link {
   color: #61dafb;
 }
